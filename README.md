@@ -1,33 +1,89 @@
-**Objetivo**
+📊 Análise e Validação de Interface – Urban Routes (Reserva de Corridas)
 
-Aplicar técnicas desenvolvidas no curso de Analista de testes/QA da TripleTen.
+📌 Descrição
 
-**Introdução**
+Este projeto tem como objetivo analisar e validar o funcionamento da interface e das regras de negócio do sistema de reserva de corridas do aplicativo web Urban Routes, com foco na identificação de inconsistências entre layout, requisitos e comportamento do sistema.
 
-A segunda sprint objetiva a criação de um checklist de teste para o aplicativo web “Urban Routes”, preparo de casos de testes e relatório de bug no Jira.
+🎯 Objetivos
 
-**Resultado**
+Validar o funcionamento da interface de reserva
 
-O projeto consiste em analisar os layouts do “Urban Routes” no figma na aba "Rotas de compartilhamento de carro", e criar um checklist de casos para testar os layouts do formulário de reserva. No intuito de descobrir divergências entre os layouts projetados ao disponível para teste. Também foi realizado a análise dos requisitos para o recurso de compartilhamento de carro e criado um checklist para testar o recurso de método de pagamento e adicionar o cartão, utilizando conceitos de particionamento de classes de equivalência, limites, testes positivos e negativos. E por fim foi elaborado casos de testes para testar a lógica do botão reservar e seus recursos.
- 
-1.	Checklist e Caso de teste:
+Identificar divergências entre layout e sistema
 
-- Checklist para método de pagamento
+Testar regras de negócio relacionadas ao fluxo de reserva
+
+Garantir consistência no processo de pagamento e confirmação
+
+🧠 Metodologia
+🔹 Análise de interface
+
+Avaliação dos layouts disponíveis no Figma, comparando o design projetado com a aplicação em execução para identificar inconsistências.
+
+🔹 Modelagem de testes
+
+Aplicação de técnicas como:
+
+Classes de equivalência
+
+Valores limite
+
+Testes positivos e negativos
+
+🔍 Atividades realizadas
+
+Análise de requisitos do sistema
+
+Validação de layouts da interface
+
+Criação de checklists de teste
+
+Elaboração de casos de teste
+
+Teste da lógica do botão “Reservar”
+
+Validação do fluxo de pagamento e adição de cartão
+
+📎 Artefatos do projeto
+✅ Checklists
+
+Método de pagamento
 
 ![image](https://github.com/LucasSaturnino/-Tripleten-Sprint-02/assets/149327395/eb8f29ae-992b-4120-8f4b-f9f9f93342e1)
 
-- Checklist para layout
-			
+Validação de layout
+
 ![image](https://github.com/LucasSaturnino/-Tripleten-Sprint-02/assets/149327395/9b197117-8459-492c-ba07-030168367451)
 
-- Casos de teste do botão "Reservar"
+🧪 Casos de teste
+
+Botão “Reservar”
 
 ![image](https://github.com/LucasSaturnino/-Tripleten-Sprint-02/assets/149327395/70dd494a-cbfb-469e-ac9c-609faadb37d1)
 
-- Casos de teste da lógica dos recursos de reserva
+Lógica de reserva
 
 ![image](https://github.com/LucasSaturnino/-Tripleten-Sprint-02/assets/149327395/5374e7ea-c080-45c3-802d-fbdd213728de)
 
-2.	Links para os relatórios de bug no Jira:
-   
-https://lwsaturnino.atlassian.net/jira/software/c/projects/LS0302/issues/?filter=allissues 
+🐞 Relatórios de bugs
+
+Acompanhamento e registro de falhas realizado via Jira:
+
+🔗 Acessar relatórios de bugs
+
+https://lwsaturnino.atlassian.net/jira/software/c/projects/LS0302/issues/?filter=allissues
+
+📈 Resultados
+
+A análise permitiu identificar inconsistências entre os layouts e o sistema implementado, além de validar o fluxo de reserva e pagamento, contribuindo para a melhoria da qualidade e confiabilidade da aplicação.
+
+🛠️ Ferramentas utilizadas
+
+Figma
+
+Jira
+
+Testes manuais
+
+📊 Evolução para Análise de Dados
+
+Este projeto contribuiu para o desenvolvimento de habilidades analíticas, como identificação de padrões, validação de dados e análise de comportamento do sistema, fundamentais para a área de análise de dados.
